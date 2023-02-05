@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>eREADS REGISTRATION</title>
+</head>
+<body>
+<div class="pushfooter">
+    <div class="topnav">
+        <nav>
+            <h2 class="logo"><img src="/eReadsAssets/eREADSlogo.png" alt=""></h2>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li class="navunderline"><a href="registration.html">REGISTRATION</a></li>
+                <li><a href="ebooks.html">E-BOOKS</a></li>
+            </ul>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="SEARCH e-BOOKS" name="search">
+            </div>
+
+            <div class="profileimg">
+                <a href="account.html"><img src="/eReadsAssets/profileIcon.png" alt=""></a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="regpage">
+        <div class="signup-form">
+            <h1>Welcome to <span>e</span>READS</h1>
+            <h2>Sign Up</h2>
+            
+            <form action="action_page.php" method="GET" class="form-main">
+                
+                <div>
+                    <label for="email">What's your email?</label>
+                    <input type="email" name="email" id="email" placeholder="Email Address" required>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <label for="password1">Create a password.</label>
+                    <input type="password" name="password1" id="password1" placeholder="Enter password" required>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <label for="password2">Confirm your password.</label>
+                    <input type="password" name="password2" id="password2" placeholder="Enter password again" required>
+                </div>
+                <br>
+                <br>
+                <div>
+                    <label for="username">What should we call you?</label>
+                    <input type="text" name="username" id="username" placeholder="Enter your profile name" required>
+                    <p>this name will appear on your profile</p>
+                </div>
+                <br>
+                <br>
+            </form>
+                <p class="TandC">By clicking "Let's get started" you are agreeing to our <a href="#">Terms and Conditions</a>.</p>
+                
+                <div class="regbutton">
+                    <button>Create Profile</button>
+                </div>
+        </div>
+        
+        <div class="regimg">
+            <img src="/eReadsAssets/RedMugIpadImage.png" alt="">
+        </div>
+    </div>
+    
+    <footer class="whitefooter">
+        <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Copyright</a></li>
+            <li><a href="#">Term of Use & Licences</a></li>
+            <li><a href="#">Authors</a></li>
+            <li><a href="#">Publishers</a></li>
+        </ul>
+    </footer>
+</div>
+</body>
+</html>
